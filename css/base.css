@@ -1,0 +1,40 @@
+*,*::before,*::after{box-sizing:border-box;}
+html,body{height:100%;}
+body{
+  margin:0;
+  font-family:var(--font-body);
+  color:var(--ink-800);
+  background:var(--paper-50);
+  -webkit-font-smoothing:antialiased;
+  font-size:15px;
+  line-height:1.5;
+}
+h1,h2,h3,h4{
+  font-family:var(--font-display);
+  font-weight:600;
+  color:var(--ink-900);
+  margin:0 0 .3em;
+  letter-spacing:-.01em;
+}
+h1{font-size:1.9rem;}
+h2{font-size:1.4rem;}
+h3{font-size:1.12rem;}
+p{margin:0 0 .8em;}
+a{color:var(--brand-600);}
+button{font-family:inherit;}
+.hidden{display:none !important;}
+.mono{font-family:var(--font-mono);}
+.muted{color:var(--ink-500);}
+::selection{background:var(--brand-100);}
+
+*:focus-visible{outline:2.5px solid var(--accent-clay);outline-offset:2px;}
+
+@media (prefers-reduced-motion: reduce){
+  *{animation-duration:.001ms !important; transition-duration:.001ms !important;}
+}
+
+/* Scrollbars */
+::-webkit-scrollbar{width:10px;height:10px;}
+::-webkit-scrollbar-track{background:transparent;}
+::-webkit-scrollbar-thumb{background:var(--ink-100);border-radius:8px;}
+::-webkit-scrollbar-thumb:hover{background:var(--ink-300);}

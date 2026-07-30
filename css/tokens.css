@@ -1,0 +1,48 @@
+:root{
+  /* --- Core palette: "Cartographic strategy" --- */
+  --ink-900:#101C28;
+  --ink-800:#152534;
+  --ink-700:#1D3345;
+  --ink-600:#2A4358;
+  --ink-500:#42607A;
+  --ink-300:#8FA6B8;
+  --ink-100:#D7E0E8;
+
+  --paper-0:#FFFFFF;
+  --paper-50:#F4F6F8;
+  --paper-100:#EBEEF2;
+  --paper-200:#DFE4E9;
+
+  --brand-600:#3B4C8A;
+  --brand-500:#4C5FA3;
+  --brand-100:#E7E9F5;
+
+  --signal-on-track:#1B7F72;
+  --signal-on-track-bg:#E4F3EF;
+  --signal-at-risk:#B8862B;
+  --signal-at-risk-bg:#FBF1DE;
+  --signal-behind:#9C3B34;
+  --signal-behind-bg:#F7E7E4;
+  --signal-done:#2B5FA8;
+  --signal-done-bg:#E6EEF8;
+  --signal-neutral:#5B6B78;
+  --signal-neutral-bg:#EBEEF1;
+
+  --accent-clay:#C77D2E;
+
+  /* Type */
+  --font-display:'Fraunces', Georgia, serif;
+  --font-body:'Inter', -apple-system, Segoe UI, sans-serif;
+  --font-mono:'JetBrains Mono', ui-monospace, Menlo, monospace;
+
+  /* Radius / shadow */
+  --radius-sm:6px;
+  --radius-md:10px;
+  --radius-lg:16px;
+  --shadow-card:0 1px 2px rgba(16,28,40,.06), 0 6px 20px -8px rgba(16,28,40,.12);
+  --shadow-pop:0 12px 40px -12px rgba(16,28,40,.35);
+
+  /* Layout */
+  --sidebar-w:264px;
+  --topbar-h:76px;
+}

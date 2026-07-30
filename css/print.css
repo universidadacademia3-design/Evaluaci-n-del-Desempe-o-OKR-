@@ -1,0 +1,7 @@
+@media print{
+  .sidebar, .topbar, .toolbar, .btn, #toast-root, #modal-root{display:none !important;}
+  .main-app{display:block !important;}
+  .view-root{padding:0 !important;}
+  body{background:#fff;}
+  .card{box-shadow:none;border:1px solid #ccc;break-inside:avoid;}
+}
